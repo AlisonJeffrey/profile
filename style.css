@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
+/* Container - Full page content */
+.container {
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Body */
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 40px;
+  text-transform: none;
+  color: #fffffff6;
+  text-align: center;
+  background-color: #DAD7CD;
+}
+
+/* Headers */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 52px;
+  text-transform: uppercase;
+  color: #fffffff6;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 52px;
+  color: #fffffff6;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Button */
+a.btn {
+  color: #fffffff6;
+  background-color: #588157;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+a.btn:hover {
+  opacity: 0.8;
+}
+
+/* Profile Photo */
+img.img-profile{
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  box-shadow: 8px 8px 8px rgb(35 35 35 / 50%);
+}
+
+/* Placeholder Images */
+img.img-placeholder {
+  width: 300px;
+  height: 200px;
+  box-shadow: 8px 8px 8px rgb(35 35 35 / 50%);
+}
+
+/* Info Cards */
+.card {
+  background-color: #344E41;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px rgb(35 35 35 / 10%);
+}
+
+/* Footer */
+/* h2.header-footer {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 3px;
+  line-height: 52px;
+  color: #fffffff6;
+}
+
+#footer {
+  background-color: #344E41;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-size: 16px;
+  padding: 50px;
+  margin: 20px;
+} */
+
+.list-inline {
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+}
+
+.list-inline a {
+  font-size: 32px;
+  color: #fffffff6;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Icon Hover */
+.list-inline a:hover {
+  color: #588157;
+}
